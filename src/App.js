@@ -1,10 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const studentName = 'Sally Student';
   return (
     <div className="App">
+    <header>
+  <h1>{studentName} Resume</h1>
+    </header>
         <section>
         <header>
           <h2>Education</h2>
