@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Footer from './Footer';
 
 function App() {
   const studentName = 'Sally Student';
@@ -57,7 +58,8 @@ function App() {
         San Diego, CA / May 2015</li>
       </ul>
     </section>
-    <section>
+
+    <footer>
       <header>
         <h2>Contact Information</h2>
       </header>
@@ -69,7 +71,7 @@ function App() {
       <br />
       <img src="https://m.media-amazon.com/images/M/MV5BMTY5NzE3NzU3MF5BMl5BanBnXkFtZTgwMjg0NTQ5MDE@._V1_.jpg" alt="Photograph of a brunette woman with her arms crossed. She is wearing an orange sweater with zebras on it and blue jeans." />
       </address>
-    </section>
+    </footer>
 
   </div>
   );
