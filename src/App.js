@@ -5,21 +5,38 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <section>
+        <header>
+          <h2>Education</h2>
+        </header>
+        <p><strong>B.A. Fine Arts / Humanities</strong><br />
+        San Diego State University<br />
+        San Diego, CA / 2015
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      </section>
+
+    <section>
+      <header>
+        <h2>Experience</h2>
       </header>
-    </div>
+      <p><strong>Artist (Freelance)</strong><br />
+      <i>Self-employed, New York, NY / March 2018-Present</i>
+      </p>
+      <ul>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+        <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</li>
+        <li>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+      </ul>
+
+      <p><strong>Collections Cataloguer</strong><br />
+      <i>Mexic-Arte Museum, Austin, TX / June 2015-March 2018</i>
+      </p>
+      <ul>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+        <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</li>
+      </ul>
+    </section>
+  </div>
   );
 }
 
