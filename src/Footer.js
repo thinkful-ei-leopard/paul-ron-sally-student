@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-function Footer() {
+function Footer () {
 return (<footer>
       <header>
         <h2>Contact Information</h2>
@@ -13,8 +13,9 @@ return (<footer>
       <br />
       <img src="https://m.media-amazon.com/images/M/MV5BMTY5NzE3NzU3MF5BMl5BanBnXkFtZTgwMjg0NTQ5MDE@._V1_.jpg" alt="Photograph of a brunette woman with her arms crossed. She is wearing an orange sweater with zebras on it and blue jeans." />
       </address>
+      <p>THIS IS FROM A COMPONENT</p>
     </footer>
 );
 }
 
-export default {Footer};
+export default Footer;
